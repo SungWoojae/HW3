@@ -67,6 +67,7 @@ ul.nav-btn > li {
     text-align:center;
 }
 
+
 .hd-title {
     font-size:80px;
     margin-top:0px;
@@ -87,9 +88,9 @@ ul.nav-btn > li {
     left: 0;
     top:0;
     width:100%;
-    height:100%
+    height:100%;
     opacity: 0.5;
-    background-image: url("")
+    background-image: url("");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
