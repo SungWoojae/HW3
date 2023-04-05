@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.log-in {
+    height:50px;
+    background-color:rgb(4, 81, 169);
+    line-height:30px;    
+}
+
+nav {
+    
+    height: 150px;
+    background-color: rgb(9, 1, 63);
+    line-height: 100px;
+
+}
+
+.log, .sign-in {
+    background-color:rgb(36, 109, 236);
+    width: 70px;
+    height: 30px;
+    text-align: center;
+}
+
+.nav-logo {
+    font-size: 30px;
+    float: left;
+    margin: 0;
+    
+}
+
+.log-in p {
+    font-size:15px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:white;
+    
+}
+
+.log-in .log {
+    margin-right: 250px;
+}
+
+.log-in .language {
+    font-size:15px;
+    float: right;
+    background: rgb(1, 1, 45);
+    color:white;
+    margin-top:20px;
+    border-style: none;
+    
+    
+}
+
+nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+.nav-menu {
+    float: right;
+}
+
+.nav-btn {
+    list-style-type: none;
+    margin:0;
+}
+
+ul.nav-btn > li {
+    float: left;
+    margin-left: 25px;
+    font-size:20px;
+}
+
+
+/* ---------------------------------------- */
+/* header */
+.hd {
+    position: relative;
+    height: 600px;
+}
+
+
+.hd:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top:0;
+    width:100%;
+    height: 100%;
+    background-image: url("./learnus배너.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/* ------------------------------------------- */
+/* section */
+
+.sec {
+    height:700px;
+}
+
+.search {
+    position: relative;
+    text-align: center;
+    background-color: rgb(255, 200, 0);
+    height: 100px;
+    width:100%;
+    margin-top: 50px;
+}
+
+.search input {
+    position: relative;
+    top:25px ;
+}
+
+.search .searchbox {
+    width:600px;
+    height:50px;
+}
+
+.search .search-btn {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.search .advance {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight:900;
+    margin-top:40px;
+}
+
+.popular {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.artc {
+    border: 1px solid black ;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+
+.artc .info {
+    height: 100px;
+}
+
+.artc .stat {
+    border-top: 1px solid black;
+}
+
+.type, .date {
+    color: gray;
+}
+
+.title, .status {
+    font-weight: bold;
+}
+
+/* footer */
+
+.first-layer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+    color: white;
+}
+
+.center h2 {
+    color: white;
+}
+
+.right th {
+    color: white;
+}
+
+.right td {
+    color: gray;
+}
+
+.gray {
+    color: gray;
+}
+
+.email {
+    background-color: rgb(232, 229, 229);
+    border-radius: 2px;
+    float: left;
+    width: 270px;
+}
+
+.QA {
+    margin-top: 16px;
+}
+
+.second-layer {
+    background-color: black;
+    color: white;
+    height: 300px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.first-layer {
+    background-color: rgb(37, 37, 37);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.second-layer h1 {
+    position: relative;
+    top: 30px;
+    margin-left: 280px;
+}
