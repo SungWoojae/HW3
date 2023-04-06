@@ -195,6 +195,11 @@ h1 {
 
 /* footer */
 
+footer {
+    background-color: rgb(37, 37, 37);
+}
+
+
 .first-layer {
     display: flex;
     justify-content: space-between;
@@ -233,6 +238,8 @@ h1 {
     margin-top: 16px;
 }
 
+
+
 .second-layer {
     background-color: black;
     color: white;
@@ -241,14 +248,15 @@ h1 {
     padding-top: 0;
 }
 
-.first-layer {
-    background-color: rgb(37, 37, 37);
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
 
 .second-layer h1 {
     position: relative;
     top: 30px;
     margin-left: 280px;
+}
+
+
+table {
+    margin-top: 15px;
+    margin-right: 5px;
 }
